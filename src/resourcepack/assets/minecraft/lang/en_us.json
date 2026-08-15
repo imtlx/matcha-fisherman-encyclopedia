@@ -1,4 +1,25 @@
 {
-  "adv.fishing.root": "What a catch!",
-  "adv.fishing.root.desc": "Catch a fish with a fishing rod"
+  "adv.fishing.root": "Fisherman's Encyclopedia",
+  "adv.fishing.root.desc": "Discover the fish that inhabit this world",
+  "adv.fishing.catch_fish": "What a catch!",
+  "adv.fishing.catch_fish.desc": "Catch a fish with a fishing rod",
+  "adv.fishing.discover": "New fish discovered!",
+  "category.fishing.freshwater.cold": "Freshwater Cold",
+  "category.fishing.freshwater.cool": "Freshwater Cool",
+  "category.fishing.freshwater.temperate": "Freshwater Temperate",
+  "category.fishing.freshwater.hot_wet": "Freshwater Hot Wet",
+  "category.fishing.freshwater.hot_dry": "Freshwater Hot Dry",
+  "category.fishing.saltwater.cold": "Saltwater Cold",
+  "category.fishing.saltwater.cool": "Saltwater Cool",
+  "category.fishing.saltwater.temperate": "Saltwater Temperate",
+  "category.fishing.saltwater.warm": "Saltwater Warm",
+  "category.fishing.saltwater.hot": "Saltwater Hot",
+  "category.fishing.junk": "Junk",
+  "category.fishing.swamps": "Swamps",
+  "adv.fishing.rarity.1": "Rarity: §7⭐§8☆☆☆",
+  "adv.fishing.rarity.2": "Rarity: §a⭐⭐§8☆☆",
+  "adv.fishing.rarity.3": "Rarity: §b⭐⭐⭐§8☆",
+  "adv.fishing.rarity.4": "Rarity: §d⭐⭐⭐⭐",
+  "fish.fishing.alaska_blackfish.desc": "alaska blackfish is a fish lol",
+  "fish.fishing.bass.desc": "bass is a fish too"
 }

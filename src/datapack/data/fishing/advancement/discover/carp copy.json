@@ -1,0 +1,39 @@
+{
+  "parent": "fishing:discover/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon",
+      "components": {
+        "minecraft:item_model": "echo_fish"
+      }
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "adv.fishing.discover"
+    }
+  },
+  "criteria": {
+    "fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:salmon",
+          "components": {
+            "minecraft:item_model": "echo_fish"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fish"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:discover/echo_fish"
+  }
+}

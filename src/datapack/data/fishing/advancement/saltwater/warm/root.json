@@ -1,0 +1,27 @@
+{
+  "parent": "fishing:root",
+  "display": {
+    "icon": {
+      "id": "brain_coral"
+    },
+    "title": {
+      "translate": "category.fishing.saltwater.warm"
+    },
+    "description": [
+      {
+        "translate": "biome.minecraft.lukewarm_ocean"
+      },"\n",
+      {
+        "translate": "biome.minecraft.deep_lukewarm_ocean"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

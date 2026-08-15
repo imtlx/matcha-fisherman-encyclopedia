@@ -1,0 +1,27 @@
+{
+  "parent": "fishing:root",
+  "display": {
+    "icon": {
+      "id": "blue_ice"
+    },
+    "title": {
+      "translate": "category.fishing.saltwater.cold"
+    },
+    "description": [
+      {
+        "translate": "biome.minecraft.frozen_ocean"
+      },"\n",
+      {
+        "translate": "biome.minecraft.deep_frozen_ocean"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

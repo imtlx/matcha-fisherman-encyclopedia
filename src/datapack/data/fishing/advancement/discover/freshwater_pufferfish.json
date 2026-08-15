@@ -1,0 +1,39 @@
+{
+  "parent": "fishing:discover/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish",
+      "components": {
+        "minecraft:item_model": "freshwater_pufferfish"
+      }
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "adv.fishing.discover"
+    }
+  },
+  "criteria": {
+    "fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pufferfish",
+          "components": {
+            "minecraft:item_model": "freshwater_pufferfish"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fish"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:discover/freshwater_pufferfish"
+  }
+}

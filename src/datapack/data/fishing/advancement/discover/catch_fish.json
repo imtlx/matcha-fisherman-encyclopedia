@@ -1,0 +1,63 @@
+{
+  "parent": "fishing:discover/root",
+  "criteria": {
+    "cod": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cod"
+        }
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    },
+    "pufferfish": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:pufferfish"
+        }
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    },
+    "salmon": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:salmon"
+        }
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    },
+    "tropical_fish": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:tropical_fish"
+        }
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "adv.fishing.catch_fish"
+    },
+    "description": {
+      "translate": "adv.fishing.catch_fish.desc"
+    }
+  },
+  "requirements": [
+    [
+      "cod",
+      "pufferfish",
+      "salmon",
+      "tropical_fish"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:root"
+  }
+}

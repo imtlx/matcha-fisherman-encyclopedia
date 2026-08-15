@@ -1,0 +1,24 @@
+{
+  "parent": "fishing:root",
+  "display": {
+    "icon": {
+      "id": "fire_coral"
+    },
+    "title": {
+      "translate": "category.fishing.saltwater.hot"
+    },
+    "description": [
+      {
+        "translate": "biome.minecraft.warm_ocean"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

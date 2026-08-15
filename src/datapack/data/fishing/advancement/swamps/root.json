@@ -1,0 +1,27 @@
+{
+  "parent": "fishing:root",
+  "display": {
+    "icon": {
+      "id": "mud"
+    },
+    "title": {
+      "translate": "category.fishing.swapms"
+    },
+    "description": [
+      {
+        "translate": "biome.minecraft.mangrove_swamp"
+      },"\n",
+      {
+        "translate": "biome.minecraft.swamp"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

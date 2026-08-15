@@ -1,0 +1,35 @@
+{
+  "parent": "fishing:freshwater/cold/root",
+  "display": {
+    "icon": {
+      "id": "salmon",
+      "components": {
+        "minecraft:item_model": "alaska_blackfish"
+      }
+    },
+    "title": {
+      "translate": "item.kleispack.fish.alaska_blackfish"
+    },
+    "description": [
+      {
+        "translate": "fish.fishing.alaska_blackfish.desc",
+        "color": "gray",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.rarity.1",
+        "color": "dark_gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "fishing:root",
+  "display": {
+    "icon": {
+      "id": "seagrass"
+    },
+    "title": {
+      "translate": "category.fishing.freshwater.temperate"
+    },
+    "description": [
+      {
+        "translate": "biome.minecraft.forest"
+      },"\n",
+      {
+        "translate": "biome.minecraft.plains"
+      },"\n",
+      {
+        "translate": "biome.minecraft.river"
+      },"\n",
+      {
+        "translate": "biome.minecraft.sunflower_plains"
+      },"\n",
+      {
+        "translate": "biome.minecraft.flower_forest"
+      },"\n",
+      {
+        "translate": "biome.minecraft.cherry_grove"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

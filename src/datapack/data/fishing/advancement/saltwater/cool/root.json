@@ -1,0 +1,27 @@
+{
+  "parent": "fishing:root",
+  "display": {
+    "icon": {
+      "id": "packed_ice"
+    },
+    "title": {
+      "translate": "category.fishing.saltwater.cool"
+    },
+    "description": [
+      {
+        "translate": "biome.minecraft.cold_ocean"
+      },"\n",
+      {
+        "translate": "biome.minecraft.deep_cold_ocean"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

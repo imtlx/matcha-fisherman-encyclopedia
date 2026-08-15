@@ -1,0 +1,39 @@
+{
+  "parent": "fishing:discover/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:chicken_spawn_egg",
+      "components": {
+        "minecraft:item_model": "axolotl"
+      }
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "adv.fishing.discover"
+    }
+  },
+  "criteria": {
+    "fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:item_model": "axolotl"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fish"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:discover/axolotl"
+  }
+}

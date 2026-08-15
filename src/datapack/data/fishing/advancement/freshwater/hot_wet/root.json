@@ -1,0 +1,30 @@
+{
+  "parent": "fishing:root",
+  "display": {
+    "icon": {
+      "id": "mangrove_propagule"
+    },
+    "title": {
+      "translate": "category.fishing.freshwater.hot_wet"
+    },
+    "description": [
+      {
+        "translate": "biome.minecraft.jungle"
+      },"\n",
+      {
+        "translate": "biome.minecraft.sparse_jungle"
+      },"\n",
+      {
+        "translate": "biome.minecraft.bamboo_jungle"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "fishing:discover/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "minecraft:item_model": "blind_minnow"
+      }
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "adv.fishing.discover"
+    }
+  },
+  "criteria": {
+    "fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cod",
+          "components": {
+            "minecraft:item_model": "blind_minnow"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fish"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:discover/blind_minnow"
+  }
+}
