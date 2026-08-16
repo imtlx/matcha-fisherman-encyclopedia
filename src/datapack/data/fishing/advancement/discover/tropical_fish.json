@@ -10,7 +10,8 @@
     "hidden": true,
     "title": {
       "translate": "adv.fishing.discover"
-    }
+    },
+    "description": ""
   },
   "criteria": {
     "fish": {
