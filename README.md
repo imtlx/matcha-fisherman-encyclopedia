@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="src/resourcepack/pack.png" width="128" alt="Nyxium logo">
+</p>
+
 <h1 align="center">Matcha Fisherman's Encyclopedia</h1>
 
 <p align="center">A Matcha Flavoured add-on featuring an in-game Fish Encyclopedia.</p>
