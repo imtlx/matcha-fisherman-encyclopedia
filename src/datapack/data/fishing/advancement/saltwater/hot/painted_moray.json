@@ -1,30 +1,30 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:saltwater/hot/mahi_mahi",
   "display": {
     "icon": {
       "id": "salmon",
       "components": {
-        "minecraft:item_model": "bass"
+        "minecraft:item_model": "painted_moray"
       }
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "item.kleispack.fish.painted_moray"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "fish.fishing.painted_moray.desc",
         "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
-        "translate": "adv.fishing.rarity.4",
+        "translate": "adv.fishing.rarity.3",
         "italic": false
       },
       "\n",
       {
         "translate": "adv.fishing.chance",
-        "with": ["2.4%"],
+        "with": ["7.1%"],
         "color": "gray",
         "italic": false
       }

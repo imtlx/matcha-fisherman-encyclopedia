@@ -1,18 +1,18 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:freshwater/hot_dry/tunisian_barb",
   "display": {
     "icon": {
       "id": "salmon",
       "components": {
-        "minecraft:item_model": "bass"
+        "minecraft:item_model": "european_eel"
       }
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "item.kleispack.fish.european_eel"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "fish.fishing.european_eel.desc",
         "color": "dark_aqua",
         "italic": true
       },

@@ -2,7 +2,7 @@
   "parent": "fishing:root",
   "display": {
     "icon": {
-      "id": "pufferfish"
+      "id": "tube_coral"
     },
     "title": {
       "translate": "category.fishing.saltwater.temperate"

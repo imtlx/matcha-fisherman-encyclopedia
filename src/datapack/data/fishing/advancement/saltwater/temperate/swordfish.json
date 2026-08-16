@@ -1,18 +1,18 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:saltwater/temperate/sturgeon",
   "display": {
     "icon": {
       "id": "salmon",
       "components": {
-        "minecraft:item_model": "bass"
+        "minecraft:item_model": "swordfish"
       }
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "item.kleispack.fish.swordfish"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "fish.fishing.swordfish.desc",
         "color": "dark_aqua",
         "italic": true
       },

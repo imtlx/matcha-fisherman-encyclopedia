@@ -1,30 +1,22 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:pale_garden/root",
   "display": {
     "icon": {
-      "id": "salmon",
-      "components": {
-        "minecraft:item_model": "bass"
-      }
+      "id": "pale_hanging_moss"
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "block.minecraft.pale_hanging_moss"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "block.fishing.pale_hanging_moss.desc",
         "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
-        "translate": "adv.fishing.rarity.4",
-        "italic": false
-      },
-      "\n",
-      {
         "translate": "adv.fishing.chance",
-        "with": ["2.4%"],
+        "with": ["71.4%"],
         "color": "gray",
         "italic": false
       }

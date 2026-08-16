@@ -1,30 +1,30 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:freshwater/cold/spoonhead_sculpin",
   "display": {
     "icon": {
       "id": "salmon",
       "components": {
-        "minecraft:item_model": "bass"
+        "minecraft:item_model": "northern_pike"
       }
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "item.kleispack.fish.northern_pike"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "fish.fishing.northern_pike.desc",
         "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
-        "translate": "adv.fishing.rarity.4",
+        "translate": "adv.fishing.rarity.3",
         "italic": false
       },
       "\n",
       {
         "translate": "adv.fishing.chance",
-        "with": ["2.4%"],
+        "with": ["7.1%"],
         "color": "gray",
         "italic": false
       }

@@ -1,18 +1,18 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:freshwater/cold/northern_pike",
   "display": {
     "icon": {
       "id": "salmon",
       "components": {
-        "minecraft:item_model": "bass"
+        "minecraft:item_model": "siberian_sturgeon"
       }
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "item.kleispack.fish.siberian_sturgeon"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "fish.fishing.siberian_sturgeon.desc",
         "color": "dark_aqua",
         "italic": true
       },

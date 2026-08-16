@@ -1,30 +1,27 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:saltwater/hot/root",
   "display": {
     "icon": {
-      "id": "salmon",
-      "components": {
-        "minecraft:item_model": "bass"
-      }
+      "id": "tropical_fish"
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "item.minecraft.tropical_fish"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "fish.fishing.tropical_fish.desc",
         "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
-        "translate": "adv.fishing.rarity.4",
+        "translate": "adv.fishing.rarity.1",
         "italic": false
       },
       "\n",
       {
         "translate": "adv.fishing.chance",
-        "with": ["2.4%"],
+        "with": ["35.7%"],
         "color": "gray",
         "italic": false
       }

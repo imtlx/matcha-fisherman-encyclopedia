@@ -1,30 +1,30 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:freshwater/cold/alaska_blackfish",
   "display": {
     "icon": {
-      "id": "salmon",
+      "id": "cod",
       "components": {
-        "minecraft:item_model": "bass"
+        "minecraft:item_model": "humpback_whitefish"
       }
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "item.kleispack.fish.humpback_whitefish"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "fish.fishing.humpback_whitefish.desc",
         "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
-        "translate": "adv.fishing.rarity.4",
+        "translate": "adv.fishing.rarity.1",
         "italic": false
       },
       "\n",
       {
         "translate": "adv.fishing.chance",
-        "with": ["2.4%"],
+        "with": ["35.7%"],
         "color": "gray",
         "italic": false
       }

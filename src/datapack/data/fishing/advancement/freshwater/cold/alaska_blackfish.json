@@ -2,7 +2,7 @@
   "parent": "fishing:freshwater/cold/root",
   "display": {
     "icon": {
-      "id": "salmon",
+      "id": "cod",
       "components": {
         "minecraft:item_model": "alaska_blackfish"
       }
@@ -13,13 +13,19 @@
     "description": [
       {
         "translate": "fish.fishing.alaska_blackfish.desc",
-        "color": "gray",
+        "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
         "translate": "adv.fishing.rarity.1",
-        "color": "dark_gray",
+        "italic": false
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": ["35.7%"],
+        "color": "gray",
         "italic": false
       }
     ],

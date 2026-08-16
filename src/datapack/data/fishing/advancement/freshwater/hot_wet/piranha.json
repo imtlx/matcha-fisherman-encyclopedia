@@ -1,30 +1,30 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:freshwater/hot_wet/bujurqui",
   "display": {
     "icon": {
-      "id": "salmon",
+      "id": "cod",
       "components": {
-        "minecraft:item_model": "bass"
+        "minecraft:item_model": "piranha"
       }
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "item.kleispack.fish.piranha"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "fish.fishing.piranha.desc",
         "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
-        "translate": "adv.fishing.rarity.4",
+        "translate": "adv.fishing.rarity.2",
         "italic": false
       },
       "\n",
       {
         "translate": "adv.fishing.chance",
-        "with": ["2.4%"],
+        "with": ["19%"],
         "color": "gray",
         "italic": false
       }

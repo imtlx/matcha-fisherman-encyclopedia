@@ -1,18 +1,18 @@
 {
-  "parent": "fishing:freshwater/temperate/catfish",
+  "parent": "fishing:saltwater/hot/painted_moray",
   "display": {
     "icon": {
       "id": "salmon",
       "components": {
-        "minecraft:item_model": "bass"
+        "minecraft:item_model": "oarfish"
       }
     },
     "title": {
-      "translate": "item.kleispack.fish.bass"
+      "translate": "item.kleispack.fish.oarfish"
     },
     "description": [
       {
-        "translate": "fish.fishing.bass.desc",
+        "translate": "fish.fishing.oarfish.desc",
         "color": "dark_aqua",
         "italic": true
       },
