@@ -2,7 +2,7 @@
   "parent": "fishing:root",
   "display": {
     "icon": {
-      "id": "lily_pad"
+      "id": "dirt"
     },
     "title": {
       "translate": "category.fishing.freshwater.cool"
