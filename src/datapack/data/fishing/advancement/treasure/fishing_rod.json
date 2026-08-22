@@ -2,13 +2,13 @@
   "parent": "fishing:treasure/emerald",
   "display": {
     "icon": {
-      "id": "fishing_rod"
-    },
-    "title": {
-      "translate": "item.minecraft.fishing_rod",
+      "id": "fishing_rod",
       "components": {
         "minecraft:enchantment_glint_override": true
       }
+    },
+    "title": {
+      "translate": "item.minecraft.fishing_rod"
     },
     "description": [
       {

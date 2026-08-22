@@ -5,11 +5,11 @@
       "id": "tripwire_hook"
     },
     "title": {
-      "translate": "item.minecraft.tripwire_hook"
+      "translate": "block.minecraft.tripwire_hook"
     },
     "description": [
       {
-        "translate": "item.fishing.tripwire_hook.desc",
+        "translate": "block.fishing.tripwire_hook.desc",
         "color": "dark_aqua",
         "italic": true
       },

@@ -9,7 +9,7 @@
     },
     "description": [
       {
-        "translate": "block.fishing.nautilus_shell.desc",
+        "translate": "item.fishing.nautilus_shell.desc",
         "color": "dark_aqua",
         "italic": true
       },

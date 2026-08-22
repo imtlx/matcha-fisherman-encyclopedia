@@ -9,7 +9,7 @@
     },
     "description": [
       {
-        "translate": "block.fishing.frog.desc",
+        "translate": "item.fishing.frog.desc",
         "color": "dark_aqua",
         "italic": true
       },

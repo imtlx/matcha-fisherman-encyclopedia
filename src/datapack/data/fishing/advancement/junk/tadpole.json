@@ -9,7 +9,7 @@
     },
     "description": [
       {
-        "translate": "block.fishing.tadpole.desc",
+        "translate": "item.fishing.tadpole.desc",
         "color": "dark_aqua",
         "italic": true
       },

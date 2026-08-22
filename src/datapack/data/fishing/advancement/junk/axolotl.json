@@ -12,7 +12,7 @@
     },
     "description": [
       {
-        "translate": "block.fishing.axolotl.desc",
+        "translate": "item.fishing.axolotl.desc",
         "color": "dark_aqua",
         "italic": true
       },
