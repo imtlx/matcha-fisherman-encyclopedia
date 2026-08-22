@@ -1,0 +1,33 @@
+{
+  "parent": "fishing:junk/bowl",
+  "display": {
+    "icon": {
+      "id": "stick"
+    },
+    "title": {
+      "translate": "item.minecraft.stick"
+    },
+    "description": [
+      {
+        "translate": "item.fishing.stick.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": ["4.4%"],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

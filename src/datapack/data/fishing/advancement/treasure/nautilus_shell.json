@@ -1,0 +1,35 @@
+{
+  "parent": "fishing:treasure/root",
+  "display": {
+    "icon": {
+      "id": "nautilus_shell"
+    },
+    "title": {
+      "translate": "item.minecraft.nautilus_shell"
+    },
+    "description": [
+      {
+        "translate": "block.fishing.nautilus_shell.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": [
+          "32.4%"
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

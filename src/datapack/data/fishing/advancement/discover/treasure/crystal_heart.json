@@ -1,0 +1,40 @@
+{
+  "parent": "fishing:discover/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "minecraft:heart_container"
+      }
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "adv.fishing.discover.treasure"
+    },
+    "description": ""
+  },
+  "criteria": {
+    "treasure": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_model": "minecraft:heart_container"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "treasure"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:discover/treasure/crystal_heart"
+  }
+}

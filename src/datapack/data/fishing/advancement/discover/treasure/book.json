@@ -1,0 +1,35 @@
+{
+  "parent": "fishing:discover/root",
+  "display": {
+    "id": "minecraft:book",
+    "components": {
+      "minecraft:enchantment_glint_override": true
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "adv.fishing.discover.treasure"
+    },
+    "description": ""
+  },
+  "criteria": {
+    "treasure": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:book"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "treasure"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:discover/treasure/book"
+  }
+}

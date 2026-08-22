@@ -1,0 +1,37 @@
+{
+  "parent": "fishing:discover/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "adv.fishing.discover.junk"
+    },
+    "description": ""
+  },
+  "criteria": {
+    "junk": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:fishing_rod",
+          "components": {
+            "minecraft:enchantments": {}
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "junk"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:discover/junk/fishing_rod"
+  }
+}

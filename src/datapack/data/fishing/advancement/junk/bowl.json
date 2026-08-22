@@ -1,0 +1,33 @@
+{
+  "parent": "fishing:junk/root",
+  "display": {
+    "icon": {
+      "id": "bowl"
+    },
+    "title": {
+      "translate": "item.minecraft.bowl"
+    },
+    "description": [
+      {
+        "translate": "item.fishing.bowl.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": ["8.7%"],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

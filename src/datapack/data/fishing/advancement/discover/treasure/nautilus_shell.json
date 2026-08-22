@@ -1,0 +1,34 @@
+{
+  "parent": "fishing:discover/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_shell"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "adv.fishing.discover.treasure"
+    },
+    "description": ""
+  },
+  "criteria": {
+    "treasure": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:nautilus_shell"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "treasure"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:discover/treasure/nautilus_shell"
+  }
+}

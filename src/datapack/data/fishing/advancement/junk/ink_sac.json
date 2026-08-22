@@ -1,0 +1,33 @@
+{
+  "parent": "fishing:junk/stick",
+  "display": {
+    "icon": {
+      "id": "ink_sac"
+    },
+    "title": {
+      "translate": "item.minecraft.ink_sac"
+    },
+    "description": [
+      {
+        "translate": "item.fishing.ink_sac.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": ["0.9%"],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "parent": "fishing:discover/root",
+  "criteria": {
+    "junk": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "#fishing:junk"
+        }
+      }
+    },
+    "rod": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:fishing_rod",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "levels": {}
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "adv.fishing.catch_junk"
+    },
+    "description": {
+      "translate": "adv.fishing.catch_junk.desc"
+    }
+  },
+  "requirements": [
+    [
+      "junk",
+      "rod"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:root"
+  }
+}

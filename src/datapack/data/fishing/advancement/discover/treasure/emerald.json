@@ -1,0 +1,34 @@
+{
+  "parent": "fishing:discover/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "adv.fishing.discover.treasure"
+    },
+    "description": ""
+  },
+  "criteria": {
+    "treasure": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:emerald"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "treasure"
+    ]
+  ],
+  "rewards": {
+    "function": "fishing:discover/treasure/emerald"
+  }
+}

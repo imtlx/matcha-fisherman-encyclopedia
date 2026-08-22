@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:chicken_spawn_egg",
+    "minecraft:bamboo",
+    "minecraft:bowl",
+    "minecraft:bone",
+    "minecraft:frog_spawn_egg",
+    "minecraft:ink_sac",
+    "minecraft:leather",
+    "minecraft:lily_pad",
+    "minecraft:stick",
+    "minecraft:string",
+    "minecraft:tadpole_spawn_egg",
+    "minecraft:tripwire_hook",
+    "minecraft:potion"
+  ]
+}

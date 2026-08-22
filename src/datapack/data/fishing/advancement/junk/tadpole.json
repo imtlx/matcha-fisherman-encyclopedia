@@ -1,0 +1,50 @@
+{
+  "parent": "fishing:junk/frog",
+  "display": {
+    "icon": {
+      "id": "tadpole_spawn_egg"
+    },
+    "title": {
+      "translate": "item.kleispack.tadpole"
+    },
+    "description": [
+      {
+        "translate": "block.fishing.tadpole.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": [
+          "8.7%"
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.only_in",
+        "extra": [
+          {
+            "translate": "biome.minecraft.swamp"
+          },
+          ", ",
+          {
+            "translate": "biome.minecraft.mangrove_swamp"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

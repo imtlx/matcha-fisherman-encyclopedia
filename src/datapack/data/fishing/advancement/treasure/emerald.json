@@ -1,0 +1,35 @@
+{
+  "parent": "fishing:treasure/nautilus_shell",
+  "display": {
+    "icon": {
+      "id": "emerald"
+    },
+    "title": {
+      "translate": "item.minecraft.emerald"
+    },
+    "description": [
+      {
+        "translate": "item.fishing.emerald.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": [
+          "21.6%"
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "fishing:root",
+  "display": {
+    "icon": {
+      "id": "diamond"
+    },
+    "title": {
+      "translate": "category.fishing.treasure"
+    },
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

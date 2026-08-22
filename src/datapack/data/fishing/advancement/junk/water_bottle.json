@@ -1,0 +1,38 @@
+{
+  "parent": "fishing:junk/fish_bones",
+  "display": {
+    "icon": {
+      "id": "potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "water"
+        }
+      }
+    },
+    "title": {
+      "translate": "item.minecraft.potion.effect.water"
+    },
+    "description": [
+      {
+        "translate": "item.fishing.water_bottle.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": ["8.7%"],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

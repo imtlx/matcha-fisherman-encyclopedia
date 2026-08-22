@@ -1,0 +1,35 @@
+{
+  "parent": "fishing:treasure/crystal_heart",
+  "display": {
+    "icon": {
+      "id": "chest"
+    },
+    "title": {
+      "translate": "block.minecraft.chest"
+    },
+    "description": [
+      {
+        "translate": "block.fishing.chest.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": [
+          "2.7%"
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

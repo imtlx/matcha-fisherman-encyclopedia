@@ -1,0 +1,53 @@
+{
+  "parent": "fishing:junk/tadpole",
+  "display": {
+    "icon": {
+      "id": "chicken_spawn_egg",
+      "components": {
+        "minecraft:item_model": "axolotl"
+      }
+    },
+    "title": {
+      "translate": "item.kleispack.axolotl"
+    },
+    "description": [
+      {
+        "translate": "block.fishing.axolotl.desc",
+        "color": "dark_aqua",
+        "italic": true
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.chance",
+        "with": [
+          "8.7%"
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      "\n",
+      {
+        "translate": "adv.fishing.only_in",
+        "extra": [
+          {
+            "translate": "biome.minecraft.lush_caves"
+          },
+          ", ",
+          {
+            "translate": "biome.minecraft.dripstone_caves"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

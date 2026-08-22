@@ -1,0 +1,76 @@
+{
+  "parent": "fishing:discover/root",
+  "criteria": {
+    "book": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:book"
+        }
+      }
+    },
+    "nautilus_shell": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:nautilus_shell"
+        }
+      }
+    },
+    "emerald": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:emerald"
+        }
+      }
+    },
+    "chest": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:chest"
+        }
+      }
+    },
+    "crystal_heart": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato"
+        }
+      }
+    },
+    "rod": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:fishing_rod",
+          "predicates": {
+            "minecraft:enchantments": {}
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "adv.fishing.catch_treasure"
+    },
+    "description": {
+      "translate": "adv.fishing.catch_treasure.desc"
+    }
+  },
+  "requirements": [
+    []
+  ],
+  "rewards": {
+    "function": "fishing:root"
+  }
+}
